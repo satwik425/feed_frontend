@@ -9,7 +9,7 @@ const App = () => {
     <div>
       <Router>
         <Routes>
-           <Route path="/" element={<Navigate to="/feed" />} />
+           <Route path="/" element={<Navigate to="/create_post" />} />
           <Route path='/create_post' element={<CreatePost />} />
           <Route path='/feed' element={<Feed/>} />
         </Routes>
